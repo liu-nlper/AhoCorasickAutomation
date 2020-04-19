@@ -15,7 +15,7 @@ text = "北京故宫是中国明清两代的皇家宫殿，旧称紫禁城。"
 matchs = tree.parse_text(text)
 print(matchs
 ```
-->
+↓
 
     >>> [0:2=北京, 0:4=北京故宫, 2:4=故宫, 5:7=中国, 19:22=紫禁城]
 
@@ -28,7 +28,7 @@ text = "北京故宫是中国明清两代的皇家宫殿，旧称紫禁城。"
 matchs = tree.parse_text(text)
 print(matchs)
 ```
-->
+↓
 
     >>> [0:2=北京/GPE, 0:4=北京故宫/LOC, 2:4=故宫/LOC, 19:22=紫禁城/LOC]
 
