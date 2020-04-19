@@ -1,4 +1,4 @@
-# AhoCorasickAutomaton
+# Aho-Corasick Automaton
 
 Python version Aho-Corasic Automaton.
 
