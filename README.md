@@ -4,7 +4,7 @@ Python version Aho-Corasic Automaton.
 
 ## 1. Usage
 
-Please refer to [`main.py`](https://github.com/liu-nlper/AhoCorasickAutomation/edit/master/main.py).
+Please refer to [`demo.py`](https://github.com/liu-nlper/AhoCorasickAutomation/edit/master/demo.py).
 
 ### 1.1 Create tree from list
 
