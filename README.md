@@ -9,6 +9,8 @@ Please refer to [`demo.py`](https://github.com/liu-nlper/AhoCorasickAutomation/b
 ### 1.1 Create tree from list
 
 ```python
+from trie import Trie
+
 words = ["北京", "故宫", "北京故宫", "中国", "紫禁城"]
 tree = Trie().create_trie_from_list(words)
 text = "北京故宫是中国明清两代的皇家宫殿，旧称紫禁城。"
@@ -22,6 +24,8 @@ print(matchs
 ### 1.2 Create tree from dict
 
 ```python
+from trie import Trie
+
 words = {"北京": "GPE", "故宫": "LOC", "北京故宫": "LOC", "紫禁城": "LOC"}
 tree = Trie().create_trie_from_dict(words)
 text = "北京故宫是中国明清两代的皇家宫殿，旧称紫禁城。"
