@@ -16,6 +16,7 @@ matchs = tree.parse_text(text)
 print(matchs
 ```
 ->
+
     >>> [0:2=北京, 0:4=北京故宫, 2:4=故宫, 5:7=中国, 19:22=紫禁城]
 
 ### 1.2 Create tree from dict
@@ -28,6 +29,7 @@ matchs = tree.parse_text(text)
 print(matchs)
 ```
 ->
+
     >>> [0:2=北京/GPE, 0:4=北京故宫/LOC, 2:4=故宫/LOC, 19:22=紫禁城/LOC]
 
 ## 2. References
