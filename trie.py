@@ -70,6 +70,7 @@ class Trie(object):
       self.create_trie_from_list(words)
     elif isinstance(words, dict):
       self.create_trie_from_dict(words)
+    return self
 
   def create_trie_from_list(self, keywords):
     for keyword in keywords:
